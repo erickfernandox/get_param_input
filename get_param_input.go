@@ -7,8 +7,6 @@ import (
 	"net/http"
 	"os"
 	"strings"
-
-	"golang.org/x/net/html"
 )
 
 func removeDuplicates(values []string) []string {
