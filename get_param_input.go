@@ -67,7 +67,6 @@ func main() {
 		url := scanner.Text()
 		result, err := getInputValues(url)
 		if err != nil {
-			log.Printf("Error processing URL %s: %s", url, err)
 			continue
 		}
 		if len(result) > 0 {
